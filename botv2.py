@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TELEGRAM_BOT_TOKEN = '7139222556:AAF1gAnN_Pyoz4--FsWSkwTL7Y9irThswBw'
+TELEGRAM_BOT_TOKEN = 'token'
 
 PROXY_SOURCES = [
     "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
